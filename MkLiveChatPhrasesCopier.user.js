@@ -2,13 +2,10 @@
 // @name         MkLiveChatPhrasesCopier
 // @namespace    https://github.com/ma2gw
 // @description  One-click copy of phrases for each YouTube channel handle in live chat.
-// @version      0.2
+// @version      0.3
 // @match        https://www.youtube.com/*
 // @grant        none
 // ==/UserScript==
-
-
-
 
 (function () {
     'use strict';
@@ -30,55 +27,13 @@
 
     // 共通
     const PHRASES_COMMON = [
-        // '👏👏👏👏👏👏',
+        '👏👏👏👏👏👏',
+        ['拍手', '👏👏👏👏👏👏'],
         ['👏', '👏👏👏👏👏👏'],
     ];
 
     // チャンネル別
     const PHRASES_BY_CHANNEL = {
-        '@Kaname_Uto': [
-            '🌱🪄🎶🌱🪄🎶🌱',
-            ['ﾊﾟﾁﾊﾟﾁ', ':_pachi::_pachi::_pachi::_pachi::_pachi::_pachi:'],
-            ['かなめうと', ':_kaa::_naa::_mee::_uuu::_too:'],
-            ['ななめうと', ':_naa::_naa::_mee::_uuu::_too:'],
-        ],
-
-        '@Nyapupu_fsp': [
-            '🎶🐈🎶🫧🎶🪼🎶',
-            '🥒',
-            'こんにゃぷ～',
-            'ﾆｬﾌﾟﾆｬﾌﾟ',
-        ],
-
-        '@cerulean-ceruchan': [
-            '🩵✨🥖🩵✨🥖',
-        ],
-
-        '@MikageLuca': [
-            '⛓✟💙⛓✟💙',
-        ],
-
-        '@0tome0to': [
-            '♍🎶♍🎶♍🎶',
-            ['5000兆円欲しい', ':_otomeoto数字の5::_otomeoto数字の0::_otomeoto数字の0::_otomeoto数字の0::_otomeoto漢字の兆::_otomeoto漢字の円::_otomeoto欲しい::_otomeoto掛け声ハイ:'],
-        ],
-
-        '@OkapaTarutaru': [
-            ['おはかぱ', ':_kapaOha::_kapaKapa:'],
-        ],
-
-        '@setowarabi': [
-            '🐻‍❄🎞🎶🐻‍❄🎞🎶',
-        ],
-
-        '@soreyue': [
-            '👾🎵🎶👾🎵🎶',
-        ],
-
-        '@橙崎ちなつ_Vtuber': [
-            '🌙☀️🧡🌙☀️🧡',
-        ],
-
         '@usadapekora': [
             'こんぺこ',
         ],
