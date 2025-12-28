@@ -14,18 +14,18 @@ Tampermonkey スクリプトです。
 ## 使い方
 Tampermonkey に適用後、**スクリプト内の配列を直接編集**して定型文を定義します。
 
-#### PHRASES_COMMON
+### PHRASES_COMMON
 全チャンネル共通で表示する定型文を定義します。
 
 - 値：定型文の配列（`string` または `[label, text]`）
 
-#### PHRASES_BY_CHANNEL
+### PHRASES_BY_CHANNEL
 チャンネルごとの定型文を定義します。
 
 - キー：チャンネルの **ハンドル名（@xxxx）**
 - 値：定型文の配列（`string` または `[label, text]`）
 
-#### 値の指定方法
+### 値の指定方法
 - `string`  
   → そのままクリップボードにコピーされるテキスト
 - `[label, text]`  
