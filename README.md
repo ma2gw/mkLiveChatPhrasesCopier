@@ -22,7 +22,7 @@ Tampermonkey に適用後、スクリプト内の配列を直接編集して定�
 ### PHRASES_BY_CHANNEL
 チャンネルごとの定型文を定義します。
 
-- キー：チャンネルの **ハンドル名（@xxxx）**
+- キー：チャンネルの ハンドル名（@xxxx）
 - 値：定型文の配列（`string` または `[label, text]`）
 
 ### 値の指定方法
@@ -56,7 +56,7 @@ const PHRASES_BY_CHANNEL = {
 
 ## インストール方法
 1. Tampermonkey をブラウザに導入します
-2. `MkLiveChatPhrasesCopier.user.js` を開き、**Raw** ボタンをクリックします
+2. `MkLiveChatPhrasesCopier.user.js` を開き、Raw ボタンをクリックします
 3. Tampermonkey のインストール確認画面が表示されるので、インストールします
 
 または、こちらから
