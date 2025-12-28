@@ -58,9 +58,15 @@ const PHRASES_BY_CHANNEL = {
 2. `MkLiveChatPhrasesCopier.user.js` を開き、**Raw** ボタンをクリックします
 3. Tampermonkey のインストール確認画面が表示されるので、インストールします
 
+または、こちらから
 [Install Script](https://raw.githubusercontent.com/ma2gw/mkLiveChatPhrasesCopier/main/mkLiveChatPhrasesCopier.user.js)
 
 
 ## 動作環境
-2025/12/28時点でのYoutubeの仕様で動作確認。
-仕様が変わったら動かなくなる可能性あり。
+2025/12/28 時点の YouTube の仕様で動作確認済み。  
+仕様変更により動作しなくなる可能性があります。
+
+
+## 改変・再配布について
+本スクリプトは、改変・改良・再配布していただいて構いません。
+（改変したら普通に使いたいので教えてくれたら喜びます…）
