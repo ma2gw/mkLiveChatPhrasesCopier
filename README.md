@@ -57,6 +57,7 @@ const PHRASES_BY_CHANNEL = {
 1. Tampermonkey をブラウザに導入します
 2. `MkLiveChatPhrasesCopier.user.js` を開き、**Raw** ボタンをクリックします
 3. Tampermonkey のインストール確認画面が表示されるので、インストールします
+
 [Install Script](https://raw.githubusercontent.com/ma2gw/mkLiveChatPhrasesCopier/main/mkLiveChatPhrasesCopier.user.js)
 
 
