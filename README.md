@@ -2,10 +2,10 @@
 
 ## 概要
 開いた配信のチャット欄の下に、  
-**チャンネルごとに設定した定型文をクリップボードにコピーするボタン**を提供する  
+チャンネルごとに設定した定型文をクリップボードにコピーするボタンを提供する
 Tampermonkey スクリプトです。
 
-弾幕やメンシスタンプの組み合わせで使うことを想定。
+弾幕やメンバーシップスタンプの組み合わせで使うことを想定。
 
 <p align="center">
   <img src="images/overview.png" width="700">
@@ -51,3 +51,15 @@ const PHRASES_BY_CHANNEL = {
         ['挨拶', 'こんHoge'],
     ],
 };
+```
+
+## インストール方法
+1. Tampermonkey をブラウザに導入します
+2. `MkLiveChatPhrasesCopier.user.js` を開き、**Raw** ボタンをクリックします
+3. Tampermonkey のインストール確認画面が表示されるので、インストールします
+[Install Script](https://raw.githubusercontent.com/ma2gw/mkLiveChatPhrasesCopier/main/mkLiveChatPhrasesCopier.user.js)
+
+
+## 動作環境
+2025/12/28時点でのYoutubeの仕様で動作確認。
+仕様が変わったら動かなくなる可能性あり。
