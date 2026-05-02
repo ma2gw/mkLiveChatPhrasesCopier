@@ -2,7 +2,7 @@
 // @name         MkLiveChatPhrasesCopier
 // @namespace    https://github.com/ma2gw
 // @description  One-click copy of phrases for each YouTube channel handle in live chat.
-// @version      0.3
+// @version      0.4
 // @match        https://www.youtube.com/*
 // @grant        none
 // ==/UserScript==
@@ -80,7 +80,9 @@
         const panel = document.getElementById('tm-phrase-panel');
         if (!panel) return;
 
-        panel.innerHTML = '';
+        // panel.innerHTML = '';
+        // panel.replaceChildren();
+        panel.textContent = '';
 
         const channelHandleRaw = getChannelHandle() ?? '(unknown)';
         const channelHandle = decodeURIComponent(channelHandleRaw);
