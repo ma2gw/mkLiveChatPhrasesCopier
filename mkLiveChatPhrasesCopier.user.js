@@ -80,7 +80,9 @@
         const panel = document.getElementById('tm-phrase-panel');
         if (!panel) return;
 
-        panel.innerHTML = '';
+        // panel.innerHTML = '';
+        // panel.replaceChildren();
+        panel.textContent = '';
 
         const channelHandleRaw = getChannelHandle() ?? '(unknown)';
         const channelHandle = decodeURIComponent(channelHandleRaw);
